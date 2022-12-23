@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-br" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>INFOrmados - Notícia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/noticia.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column h-100">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <div id="ifes">
+        <p>Website direcionado para a comunidade do Ifes Campus Santa Teresa.</p>
+    </div>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="header">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../../img/logo.png" alt="INFOrmados" id="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0" id="links">
+                        <li class="nav-item"><a class="nav-link" href="../categorias/c-eventos.html">Eventos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../categorias/c-esportes.html">Esportes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../categorias/c-informes.html">Informes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../categorias/c-alunos.html">Alunos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../categorias/c-vendas.html">Vendas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../categorias/c-agendas.html">Agendas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../categorias/c-saude.html">Saúde</a></li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+                        <a id="botao" href="../login.html">Login</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="row g-0" id="main">
+
+            <!--Container da notícia-->
+            <div class="col-md-9" id="container">
+
+                <!--Título da notícia-->
+                <div id="titulo">
+                    <h1>Chuvas afetam rodovias de deslocamento até o Campus</h1>
+                </div>
+
+                <!--Imagem da notícia-->
+                <div id="imagem">
+                    <img class="w-100" src="../../img/chuvas.jpeg" alt="...">
+                </div>
+
+                <!--Conteúdo da notícia-->
+                <div id="texto">
+                    <p>
+                        Em razão do novo boletim divulgado pelo DER-ES, às 13h de hoje (05/12), sobre a situação das 
+                        rodovias estaduais, vimos esclarecer que os estudantes que tiverem impedimento e/ou 
+                        comprometimento da segurança no tráfego pelas estradas de acesso ao Ifes Campus Santa Teresa 
+                        deverão justificar suas ausências junto ao Setor Pedagógico, através do e-mail 
+                        nucleopedagogico.st@ifes.edu.br, e requerer avaliação de segunda chamada, caso percam alguma 
+                        atividade avaliativa presencial durante o período de 06 a 08/12. Cabe destacar que os ônibus 
+                        das rotas de Santa Teresa e de São Roque do Canaã funcionarão normalmente durante esses dias. 
+                        Para 09/12 (sexta-feira), em que haverá jogo da Seleção Brasileira, as atividades letivas 
+                        serão não presenciais com postagem das atividades no AVA/Moodle, conforme informado anteriormente.<br>
+                        Cordialmente,<br>
+                        Gestão de Ensino e Gestão Pedagógica.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4" id="barra">
+                <div class="position-sticky" style="top: 2rem;" id="bar">
+                  <div class="p-4 mb-3" id="area">
+                    <h5><a href="../areaInt.html">Área Interativa</h5>Envie sua postagem aqui!</a>
+                  </div>
+        
+                  <div class="p-4 mb-3" id="sobre">
+                    <h5>Sobre</h5>
+                    <p class="mb-0"><a href="../s-site.html">Sobre o site</a></p>
+                    <p class="mb-0"><a href="../s-criadores.html">Sobre os criadores</a></p>
+                  </div>
+        
+                  <div class="p-4" id="categorias">
+                    <h5>Categorias</h5>
+                    <ol class="list-unstyled mb-0">
+                      <li><a href="../categorias/c-eventos.html">Eventos</a></li>
+                      <li><a href="../categorias/c-esportes.html">Esportes</a></li>
+                      <li><a href="../categorias/c-informes.html">Informes</a></li>
+                      <li><a href="../categorias/c-alunos.html">Alunos</a></li>
+                      <li><a href="../categorias/c-vendas.html">Vendas</a></li>
+                      <li><a href="../categorias/c-agendas.html">Agendas</a></li>
+                      <li><a href="../categorias/c-saude.html">Saúde</a></li>
+                    </ol>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-auto py-3 text-center" id="footer">
+        <div class="container">
+            <span>Site criado por Homero, João Vitor, Lavinia, Laysa e Raiany.</span>
+        </div>
+    </footer>
+</body>
+
+</html>

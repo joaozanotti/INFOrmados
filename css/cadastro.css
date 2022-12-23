@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#header {
+    background-color: #290438;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+}
+
+
+#logo {
+    display: flex;
+    justify-content: center;
+    width: 12em;
+}
+
+#logo:hover {
+    opacity: 0.83;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    width: min(80%, 20em);
+}
+
+#form {
+    width: 19em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    background-color: rgb(241, 239, 239);
+    padding: 2em;
+    border-radius: 2%;
+    border: 1px solid rgb(214, 213, 213);
+}
+
+#email {
+    margin-bottom: 0.5em;
+}
+
+#password {
+    margin-bottom: 0.5em;
+}
+
+#footer {
+    color: #fff;
+    font-size: 0.9em;
+    background-color: #290438;
+}

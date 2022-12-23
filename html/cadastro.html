@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>INFOrmados - Cadastro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/cadastro.css">
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="d-flex flex-column h-100 text-center">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+  <!--Cabeçalho-->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark" id="header">
+      <div class="container-fluid" id="logo">
+        <a class="navbar-brand" href="index.html"><img src="../img/logo.png" alt="INFOrmados" id="logo"></a>
+      </div>
+    </nav>
+  </header>
+
+  <!--Formulário de cadastro-->
+  <main class="form-signin w-90 m-auto" id="container">
+    <form id="form">
+      <h1 class="h3 mb-3 fw-normal">Cadastro</h1>
+      <br>
+
+      <!--Input para email-->
+      <div class="form-floating" id="email">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">E-mail</label>
+      </div>
+
+      <!--Input para senha-->
+      <div class="form-floating" id="password">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Senha</label>
+      </div>
+
+      <!--Input para confirmar senha-->
+      <div class="form-floating" id="password1">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Confirme sua senha</label>
+      </div>
+      <br>
+
+      <!--Botão de confirmação-->
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Cadastrar</button>
+      <br><br>
+      <a href="login.html" class="mt-5 mb-3 text-muted" id="link">Já tem uma conta? Entre</a>
+    </form>
+  </main>
+
+  <footer class="footer mt-auto py-3 text-center" id="footer">
+    <div class="container">
+      <span>Site criado por Homero, João Vitor, Lavinia, Laysa e Raiany.</span>
+    </div>
+  </footer>
+</body>
+
+</html>

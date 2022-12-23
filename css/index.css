@@ -1,0 +1,217 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#ifes {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: -0.8em;
+    background-color: rgb(211, 210, 210);
+    color: black;
+}
+
+#header {
+    font-family: 'Rubik', sans-serif;
+    background-color: #290438;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+}
+
+#header a {
+    color: rgb(235, 233, 233);
+    text-decoration: none;
+}
+
+#links a:hover {
+    color: rgb(170, 170, 170);
+}
+
+#logo {
+    margin-left: 2em;
+    width: 10em;
+}
+
+#logo:hover {
+    opacity: 0.83;
+}
+
+#botao {
+    background-color: #44055e;
+    text-decoration: none;
+    border: 1px solid rgb(130, 148, 148);
+    border-radius: 15%;
+    padding: 0.5em;
+    color: rgb(130, 148, 148);
+    margin-right: 2em;
+}
+
+header button {
+    margin-right: 2em;
+}
+
+#botao:hover {
+    background-color: #5c0980;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#carouselExampleCaptions {
+    margin-top: 2em;
+    width: 80%;
+}
+
+#carouselExampleCaptions img {
+    aspect-ratio: 16/10;
+}
+
+#carouselExampleCaptions h5 {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0.2em;
+}
+
+.carousel-caption {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#barra {
+    width: 20%;
+    background-color: #1c86c4;
+    border-left: 0px solid black;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+#bar {
+    margin-top: 0.5em;
+    text-align: center;
+    background-color: #1c86c4;
+    
+}
+
+#bar a {
+    font-size: 1.3em;
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+#bar h5 {
+    font-size: 1.3em;
+}
+
+#area {
+    font-size: 0.9em;
+    background-color: #44055e;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 3em;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 5%;
+}
+
+#area:hover {
+    background-color: #5c0980;
+}
+
+#sobre h5 {
+    color: #89d4ff;
+}
+
+#categorias h5 {
+    color: #89d4ff;
+}
+
+#categorias a:hover {
+    color: rgb(170, 170, 170);
+}
+
+#sobre a:hover {
+    color: rgb(170, 170, 170);
+}
+
+@media (max-width: 1150px) {
+    #area {
+        width: 90%;
+        margin-left: 0.6em;
+    }
+}
+
+@media (max-width: 767px) {
+    #container {
+        width: 100%;
+    }
+
+    #barra {
+        width: 100%;
+    }
+
+    #carouselExampleCaptions {
+        width: 100%;
+    }
+
+    #botao {
+        margin: 0%;
+    }
+
+    #logo {
+        margin: 0%;
+    }
+
+    header button {
+        margin: 0%;
+    }
+
+    #area {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 500px) {
+    #carouselExampleCaptions h5 {
+        font-size: 0.85em;
+    }
+}
+
+#link {
+    margin-top: 2em;
+}
+
+#album {
+    display: flex;
+    justify-content: center;
+}
+
+#album a {
+    text-decoration: none;
+    color: #000;
+}
+
+#news {
+    width: min(85%, 25em);
+}
+
+#news img {
+    aspect-ratio: 16/10;
+    width: 100%;
+    border-radius: 1%;
+}
+
+#footer {
+    color: #fff;
+    font-size: 0.9em;
+    background-color: #290438;
+}
