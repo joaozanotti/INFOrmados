@@ -13,15 +13,15 @@ Nascido no ano de 2022, o site é fruto do trabalho dos alunos durante todo o te
 <div>
   <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg">
   <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg">
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg">
+  <img width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg">
 </div>
 
 ## 🚀 Deploy
 Implementado no GitHub Pages. <a href= "https://joaozanotti.github.io/INFOrmados/html/" target="_blank"> Clique aqui</a> para ver o projeto.
 
 ## 🚧 Autores
-Homero Carlos Fernandes (@homero_cf) <br>
-João Vitor Zanotti (@joaozanotti_) <br>
-Lavinia Carvalho de Paula (@laviniacdp) <br>
-Laysa Maria Fonseca (@fonseca_laysa) <br>
-Raiany dos Santos (@raiany_sant) <br>
+Homero Carlos Fernandes (@homero_cf)<br>
+João Vitor Zanotti (@joaozanotti_)<br>
+Lavinia Carvalho de Paula (@laviniacdp)<br>
+Laysa Maria Fonseca (@fonseca_laysa)<br>
+Raiany dos Santos (@raiany_sant)<br>
