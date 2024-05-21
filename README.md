@@ -3,7 +3,7 @@
   <img src="https://i.ibb.co/fDLnLjg/informados.png" width="500px">
 </div>
 
-## 📄 Descrição do projeto
+## 📝 Descrição do projeto
 Este projeto se trata de um site de notícias criado em grupo que busca abordar a comunidade da escola do IFES Campus Santa Teresa. <br>
 Nosso objetivo se baseou em criar um website para manter todos os alunos mais inseridos em todo o ambiente escolar. <br>
 Buscando mostrar a realidade dos alunos, a página traz matérias diversas que contam um pouco da realidade dentro dos muros do Instituto. <br>
@@ -11,9 +11,9 @@ Nascido no ano de 2022, o site é fruto do trabalho dos alunos durante todo o te
 
 ## 🛠 Tecnologias utilizadas
 <div>
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg">
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg">
-  <img width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
 </div>
 
 ## 🚀 Deploy
